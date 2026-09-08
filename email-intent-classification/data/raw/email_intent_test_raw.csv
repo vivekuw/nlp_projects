@@ -1,0 +1,101 @@
+email_text,intent,urgency,order_id,product
+Hi guys—order statuz says delivered but i didnt recieve anything. It was supposed to be a laptop. Order 483920. pls check asap,delivery_issue,high,483920,laptop
+My printer shipment is stuck in limbo... tracking hasn’t moved in 5 days and we need it for the office. Order 517604,delivery_issue,high,517604,printer
+Package came crushed and the monitor box is torn open. Not sure if screen is ok yet. Order id 90518,delivery_issue,medium,90518,monitor
+Only 1 box arrived but the order had cables + a keyboard. It says delivered (??). Order 640771,delivery_issue,medium,640771,cables and keyboard
+"Delivery went to the wrong suite again—left with someone in 2A, we’re 2C. Order 778041 (router). pls fix",delivery_issue,high,778041,router
+Can you confirm if order 362915 is actually going out today? we have a server rack install tomorow and nothing’s shown up,delivery_issue,high,362915,server rack
+"Do you have the WaveLink router in stock? SKU WL-AX5400. Need qty 8, pls",availability,,,WaveLink router
+"Looking for 25 keyboards, the silent one. SKU KB-SLNT-221A. available or backorder?",availability,,,silent keyboard
+Need to know if the 24U server rack is available in your west coast warehouse. SKU RK-24U-BLK. Qty 2,availability,,,server rack 24U
+Is the tablet (FieldTab 10) still in stock? sku FT10-64G-BK. Need 14 units for onboarding,availability,,,tablet
+"Any ETA/availability on software license packs, SKU LIC-PRO-12M. Need 60 but can do partial if that helps",availability,,,software license
+Honestly this laptop feels super flimsy for the price and the hinge squeaks. Not happy at all.,complaints,,,laptop
+Your support chat just copy/pasted scripts and didn’t read what i wrote. wasted like 45 mins. cmon.,complaints,,,
+The printer ink you sent is leaking in the bag… how does that even ship like this. total mess.,complaints,,,printer ink
+Website kept throwing errors at checkout and cleared my cart twice. really frustrating.,complaints,,,
+The cables are labeled wrong lengths. We ordered 2m and they’re clearly shorter. This is not ok.,complaints,,,cables
+We got a past-due notice for order 491770 but we already paid it. Please check—amount was 1280.50,credit_and_collections,,491770,
+Account is on credit hold and we can’t place orders. What invoice is causing this? I see 0 balance on our side.,credit_and_collections,,,
+Collections called again about order 700265. Can you resend the remittance details? We paid 4999.00 via ACH,credit_and_collections,,700265,
+Need to increase our credit limit before next week’s purchase. Current limit is too low and blocking PO. No specific order yet.,credit_and_collections,,,
+Why am i being charged a late fee? It says 75.00 added and we never agreed to that. Order 612099,credit_and_collections,,612099,
+pls email invoice for order 588104. need it today for expense report,invoice_request,high,588104,
+Can you send all invoices for Jan 2026 as one PDF bundle? thx,invoice_request,medium,,
+"Need a copy of invoice for order 930176, original email got deleted. no rush",invoice_request,low,930176,
+Please send invoices for Q4 2025 (Oct-Dec). Auditor is asking and it’s kind of urgent.,invoice_request,high,,
+"Invoice request: order 705991, we need the bill for our PO closeout. pls",invoice_request,medium,705991,
+Can you cancel order 641085? It was placed by mistake and i need it stopped asap,order_modification_request,high,641085,
+Please change shipping address on order 502761—autofill put our old office. Need this fixed before it ships,order_modification_request,high,502761,
+Order 870044: can you add 3 more HDMI cables to the same shipment? not urgent but would be nice,order_modification_request,low,870044,
+Need to change quantity on order 775090 from 10 to 6. pls confirm when done,order_modification_request,medium,775090,
+Can you upgrade shipping on order 916773 to overnight? we need the tablet by tomorow morning,order_modification_request,high,916773,
+Any update on order 604118? placed 2 weeks ago and still shows processing. what’s going on,order_status,,604118,
+Order 733509 for the router—did it ship yet? i didnt get tracking email,order_status,,733509,router
+"Checking statuz on order 519990 (monitor). needed for install next Tue, pls confirm",order_status,,519990,monitor
+Order #880051 says 'label created' since last Friday. has it actually left the warehouse??,order_status,,880051,
+"Where’s order 760285 (keyboard + cables). I ordered it yesterday afternoon, just want to know eta",order_status,,760285,keyboard and cables
+Order 671904 is showing backordered. can you tell me how long for the server rack to ship?,order_status,,671904,server rack
+"Need pricing for 30 laptops (midrange, 16GB). pls send quote asap",pricing,high,,laptop (16GB)
+What’s your best price on 12 routers for small office? not urgent just budgeting,pricing,low,,router
+Can you quote 5x 27in monitors? Need it by end of day if possible,pricing,high,,monitor 27in
+"Pricing request: server rack 42U, qty 1. also any discount for nonprofit?",pricing,medium,,server rack 42U
+"How much for 200 CAT6 cables (3ft)? send rough pricing, no rush",pricing,low,,CAT6 cables 3ft
+Need price + if available for SKU AB-2234 (USB-C cable 1m). qty 150. pls reply today,pricing_and_availability,high,,
+Do you have SKU XZ9981 in stock and what’s the unit cost for 20? (it’s the 24-port router/switch combo),pricing_and_availability,medium,,
+"Can you confirm availability + pricing for SKU PRN-LSR4400. Need 2 printers for a new site, kinda urgent",pricing_and_availability,high,,
+"Looking at SKU MON-4K27-A1, need 6 monitors. Are they in stock and what would it cost shipped to NY?",pricing_and_availability,medium,,
+"Need software license packs, SKU LIC-TEAM-50. what’s price and are you out of stock? qty 1 pack",pricing_and_availability,medium,,
+Do you have SKU RK-12U-WALL and can you quote 3 units? not super urgent,pricing_and_availability,low,,
+Need the user manual for the AeroWave router. what version is current? thx,product_docs,,,AeroWave router
+"Can you send a datasheet for your 42U server rack, preferably Rev B if you have it",product_docs,,,server rack 42U
+Looking for MSDS/SDS for the screen cleaning wipes you sell. Need latest version for compliance,product_docs,,,screen cleaning wipes
+Do you have firmware release notes for the PrintMaster 5000 printer? version 2.1 maybe?,product_docs,,,PrintMaster 5000 printer
+Need quickstart guide PDF for the 10-inch tablet (FieldTab). Not sure what revision but anything helps,product_docs,,,FieldTab tablet
+Who is the sales rep for Pacific Northwest? We’re a mid-size company (~300 ppl) and need to talk this week,sales_reps,medium,,
+Need an account manager in Texas. we’re small (25 employees) and want to set up recurring purchases. pls call asap,sales_reps,high,,
+Can you tell me who covers NYC metro for enterprise accounts? we’re 2k staff. not urgent just intro,sales_reps,low,,
+Need a rep in the UK/Ireland region. we’re a startup (12 ppl). pls reply when you can,sales_reps,medium,,
+"Who do we talk to for California state contracts? we’re a large public agency, need response today",sales_reps,high,,
+We want to register as a vendor. Company name: NorthBridge IT Services. We’re an LLC in the Midwest (US). What’s the next step?,vendor_registration,,,
+"Hello, pls send vendor onboarding info. Company: Sunvale Manufacturing Inc. We build metal racks. Located in Ontario, Canada",vendor_registration,,,
+Looking to become a supplier—KiteRun Logistics (we do warehousing + last-mile). Region: Southeast US,vendor_registration,,,
+Vendor registration request for ByteGarden Software GmbH (software publisher). We’re in Germany/EU,vendor_registration,,,
+Can we get set up as a vendor? Company: Cobalt Cable Co. Business type: distributor. Region: Australia/NZ,vendor_registration,,,
+Need to return the monitor from order 720551. It has dead pixels and it’s driving me nuts,return_request,,720551,monitor
+Return request: order 589104 (keyboard). Keys stick and it’s unusable. pls advise next steps,return_request,,589104,keyboard
+"I want to return the router, order 831905. It keeps dropping connection and we’re switching brands",return_request,,831905,router
+Can i return the tablet from order 470166? Bought wrong size for our team (needed bigger screen),return_request,,470166,tablet
+Order 665702: returning the server rack. It doesn’t fit our closet depth (my bad).,return_request,,665702,server rack
+Refund pls. Order 690115 was canceled but my card still got charged 299.99. Why??,refund_request,,690115,
+I was billed twice for order 510992 (same amount 89.00). Can you refund one of the charges asap,refund_request,,510992,
+Order 772040: pls refund 49.95 for the shipping upgrade—i paid for overnight and it arrived 3 days later,refund_request,,772040,
+"Need refund for order 805511. The software license key never arrived, so we bought elsewhere. amount was 1200.00",refund_request,,805511,
+"Refund request: order 930502, returned the printer and tracking shows delivered back to you. should be 159.50 back to card",refund_request,,930502,
+Tech help pls: the router keeps rebooting every 10-15 mins after latest update. We’re offline all day,technical_support,high,,router
+My printer is printing blank pages even with new toner. Tried power cycle. any ideas?,technical_support,medium,,printer
+Laptop won’t boot—just a blinking cursor. It was fine yesterday. Need help asap,technical_support,high,,laptop
+"Monitor flickers when connected via HDMI, but works on DP. Is this a setting or a defect?",technical_support,medium,,monitor
+Software license activation keeps failing with 'invalid host id'. It’s blocking deployment today,technical_support,high,,software license
+Tablet touchscreen is laggy and sometimes doesn’t register taps. Not urgent but annoying—any fix?,technical_support,low,,tablet
+Can you help me reset my password for the website? i’m locked out and it says my email doesnt exist,out_of_scope,,,
+"Hi, I’m applying for a job—where do i send my resume? your careers page 404s",out_of_scope,,,
+"Please unsubscribe me from marketing emails. i keep getting promos every day, its too much",out_of_scope,,,
+Do you sponsor local robotics teams? We’re looking for donations for a school event next month,out_of_scope,,,
+Your website is great btw—just wanted to say thanks for the fast responses last time,out_of_scope,,,
+Order 516830 is late (was due yesterday) and i also need the invoice resent. pls dont make me chase this again,multiple_intents,,516830,
+Can you tell me the statuz of order 780902 AND change the ship-to address before it goes out? i typed it wrong,multiple_intents,,780902,
+"Need price + availability for SKU QP-7711 (USB-C dock). qty 40, and we kinda need it asap",multiple_intents,,,
+Do you have the manual for the router AND is it in stock? SKU RT-AXE6600. need 5,multiple_intents,,,
+Order 605772: please cancel if not shipped. If it already shipped then i need return instructions for the monitor.,multiple_intents,,605772,
+I need to return order 744910 (keyboard) AND get a refund. it arrived with sticky keys,multiple_intents,,744910,
+We’re on credit hold and i also need copies of all invoices for Dec 2025 to reconcile. pls,multiple_intents,,,
+Need a sales rep for Florida (we’re ~120 ppl) and also want bulk pricing on 60 tablets for Q2 rollout,multiple_intents,,,
+"Vendor registration for 'IronPeak Racks' (manufacturer, EU) + can you share your supplier code of conduct doc?",multiple_intents,,,
+"Order 691220 shows delivered but we never got it, and now AP is asking why there’s no invoice email either. help pls",multiple_intents,,691220,
+Can you change order 872640 qty down (we ordered too many cables) and confirm the updated price total?,multiple_intents,,872640,
+Need status on order 590118 and also your fastest ship option if it hasn’t gone out yet (we need it before Friday),multiple_intents,,590118,
+"The router keeps dropping and rebooting, and we’re still waiting on delivery for order 930055. can someone help??",multiple_intents,,930055,
+"Need quote + stock check for SKU SW-4410 (software license), qty 10. also what’s the latest version for the install guide?",multiple_intents,,,
+Can you resend invoice for order 406771 and btw we were charged a late fee even though payment was sent. pls fix,multiple_intents,,406771,
+Order 782991: return the tablet (wrong model) and refund the card. we need this sorted asap,multiple_intents,,782991,

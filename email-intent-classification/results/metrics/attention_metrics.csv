@@ -1,0 +1,2 @@
+Model,Architecture,Accuracy,Precision,Recall,F1_Score,Macro_Precision,Macro_Recall,Macro_F1_Score
+LSTM + Attention,Embedding + LSTM + Simple Attention + Dense,0.7447368421052631,0.7617188048002381,0.7447368421052631,0.7445221419710454,0.7709340224985726,0.7429084891045927,0.7483596540573214

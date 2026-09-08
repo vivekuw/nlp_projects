@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models & Data cache
+*.h5
+*.keras
+*.pkl
+data/raw/*.parquet
+
+# OS specific
+.DS_Store
+Thumbs.db

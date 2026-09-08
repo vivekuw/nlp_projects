@@ -1,0 +1,381 @@
+email_text,intent,urgency,order_id,product,clean_email_text,char_length,word_count
+"Subj: Case 0988 - Please return order 68096 keyboard and refund 49.95, reason: double typing.",multiple_intents,,68096.0,,please return order 68096 keyboard and refund 49 95 reason double typing,72,12
+"Subj: Case 0439 - Pls share price and whether you have CAT6-25FT in stock, qty 100.",pricing_and_availability,medium,,,pls share price and whether you have cat6 25ft in stock qty 100,63,13
+"Subj: Case 0433 - Need price + stock for keyboard KB-88Y, qty 12, pls reply soon.",pricing_and_availability,medium,,,need price stock for keyboard kb 88y qty 12 pls reply soon,58,12
+"Technical: keyboard backlight stopped working after firmware update, model KBX",technical_support,medium,,keyboard,technical keyboard backlight stopped working after firmware update model kbx,76,10
+Need a sales contact in Canada; company size 80.,sales_reps,low,,,need a sales contact in canada company size 80,46,9
+Honestly this laptop feels super flimsy for the price and the hinge squeaks. Not happy at all.,complaints,,,laptop,honestly this laptop feels super flimsy for the price and the hinge squeaks not happy at all,92,17
+"My monitor flickers randomly and reboots my workstation, urgent fix pls.",technical_support,high,,monitor,my monitor flickers randomly and reboots my workstation urgent fix pls,70,11
+We got a past-due notice for order 491770 but we already paid it. Please check—amount was 1280.50,credit_and_collections,,491770.0,,we got a past due notice for order 491770 but we already paid it please check amount was 1280 50,96,20
+Random question: do you run an alumni program? Not buying atm.,out_of_scope,,,,random question do you run an alumni program not buying atm,59,11
+"Status update for order 836150 pls, and also change the ship-to address (our old address is still on there).",multiple_intents,,836150.0,,status update for order 836150 pls and also change the ship to address our old address is still on there,104,20
+Tablet order 44556 marked delivered but it's not here. order id: 44556. pls escalate,delivery_issue,high,44556.0,tablet,tablet order 44556 marked delivered but it s not here order id 44556 pls escalate,81,15
+Is SKU RK-200 for server rack available? need 3,availability,,,server rack,is sku rk 200 for server rack available need 3,46,10
+"Subj: Case 0676 - Return router order 66038, reason: slow throughput.",return_request,,66038.0,router,return router order 66038 reason slow throughput,48,7
+"Need price and stock for SKU SV-12 quantity 3, can you confirm lead times?",pricing_and_availability,medium,,,need price and stock for sku sv 12 quantity 3 can you confirm lead times,72,15
+Pricing and availability check for SKU ZX-1 for printers qty 6,pricing_and_availability,low,,,pricing and availability check for sku zx 1 for printers qty 6,62,12
+"Subj: Case 0412 - Quote needed for printer qty 10, not urgent but soon pls.",pricing,medium,,printer,quote needed for printer qty 10 not urgent but soon pls,55,11
+My order 50505 arrived missing cables. Order shows complete but box was empty of cables,delivery_issue,high,50505.0,cables,my order 50505 arrived missing cables order shows complete but box was empty of cables,86,15
+Need spec sheet for server rack - version 1.1 pls,product_docs,,,server rack,need spec sheet for server rack version 1 1 pls,47,10
+"Subj: Case 0525 - Router antenna placement guide, do you have one?",product_docs,,,router,router antenna placement guide do you have one,46,8
+Subj: Case 0946 - Change shipping method on order 68070 and also whats the current status/tracking?,multiple_intents,,68070.0,,change shipping method on order 68070 and also whats the current status tracking,80,13
+"Subj: Case 0553 - Need account rep for South Africa, ~400 employees, please respond soon.",sales_reps,medium,,,need account rep for south africa 400 employees please respond soon,67,11
+"Can you process refund for order 870611? Router arrived damaged and we don't want a replacement, just money back.",refund_request,,870611.0,,can you process refund for order 870611 router arrived damaged and we don t want a replacement just money back,110,20
+Subj: Case 0945 - Collections notice for order 68069 is wrong and we need the invoice copy to prove payment.,multiple_intents,,68069.0,,collections notice for order 68069 is wrong and we need the invoice copy to prove payment,89,16
+"Account shows collection notice for order 10101 amount 1200, we need a payment plan.",credit_and_collections,,10101.0,,account shows collection notice for order 10101 amount 1200 we need a payment plan,82,14
+Subj: Case 0956 - Refund request for order 68077 amount 89.90 and return label never arrived.,multiple_intents,,68077.0,,refund request for order 68077 amount 89 90 and return label never arrived,74,13
+Can you change the color theme on your website? The contrast hurts my eyes tbh.,out_of_scope,,,,can you change the color theme on your website the contrast hurts my eyes tbh,77,15
+"Can you send a datasheet for your 42U server rack, preferably Rev B if you have it",product_docs,,,server rack 42U,can you send a datasheet for your 42u server rack preferably rev b if you have it,81,17
+"Subj: Case 0747 - Laptop wont boot, just a black screen, urgent we need it for work.",technical_support,high,,laptop,laptop wont boot just a black screen urgent we need it for work,63,13
+"Complaint: cables arrived burnt smell, possible transit damage. replace pls",complaints,,,cables,complaint cables arrived burnt smell possible transit damage replace pls,72,10
+"Subj: Case 0749 - Software license activation fails with error 403, pls help asap.",technical_support,high,,software license,software license activation fails with error 403 pls help asap,62,10
+"Price for 250 cables? Need discount tiers and lead time, procurement ASAP.",pricing,high,,cables,price for 250 cables need discount tiers and lead time procurement asap,71,12
+Check order 77770 (tablet) status — ordered 3 days back,order_status,,77770.0,tablet,check order 77770 tablet status ordered 3 days back,51,9
+"Subj: Case 0269 - Can you change shipping address for order 64002? i typed it wrong, sorry.",order_modification_request,high,64002.0,,can you change shipping address for order 64002 i typed it wrong sorry,70,13
+"Hi, I ordered laptop 55112 but also need to change shipping and ask for invoice — order 55112",multiple_intents,,55112.0,,hi i ordered laptop 55112 but also need to change shipping and ask for invoice order 55112,90,17
+"Software license 14141 emailed wrong key, not working",delivery_issue,high,14141.0,software license,software license 14141 emailed wrong key not working,52,8
+"We need a sales rep for LATAM, medium sized company ~200 people, pls reach out",sales_reps,medium,,,we need a sales rep for latam medium sized company 200 people pls reach out,75,15
+"Subj: Case 0587 - Vendor reg request: NorthLake Tech Parts, manufacturer, region Canada.",vendor_registration,,,,vendor reg request northlake tech parts manufacturer region canada,66,9
+"Subj: Case 0069 - Is the 42U server rack SR-42U-01 available, qty 2?",availability,,,server rack,is the 42u server rack sr 42u 01 available qty 2,48,11
+"I need both pricing and availability for SKU PR-777, qty 20, deadline tomorrow pls.",pricing_and_availability,high,,,i need both pricing and availability for sku pr 777 qty 20 deadline tomorrow pls,80,15
+"Subj: Case 0913 - Order 68047 laptop: invoice missing + also status is stuck processing, pls fix asap.",multiple_intents,,68047.0,,order 68047 laptop invoice missing also status is stuck processing pls fix asap,79,13
+Subj: Case 0719 - Refund pls order 67028 amount 66.00 reason: shipping insurance not requested.,refund_request,,67028.0,,refund pls order 67028 amount 66 00 reason shipping insurance not requested,75,12
+Subj: Case 0875 - Router config wont save (support) and also we need its security whitepaper.,multiple_intents,,,,router config wont save support and also we need its security whitepaper,72,12
+"Returning keyboard from order 66200 because keys missing, pls advise",return_request,,66200.0,keyboard,returning keyboard from order 66200 because keys missing pls advise,67,10
+"Collections call received for order 12345 but invoice disputed, please hold actions.",credit_and_collections,,12345.0,,collections call received for order 12345 but invoice disputed please hold actions,82,12
+"Status inquiry: order 99900 cables, ordered last month",order_status,,99900.0,cables,status inquiry order 99900 cables ordered last month,52,8
+"Subj: Case 0808 - I need a copy of your company W-9, where can i download it?",out_of_scope,,,,i need a copy of your company w 9 where can i download it,57,14
+Order #614880: can you add 2 more monitors to the same shipment? If not possible let me know.,order_modification_request,medium,614880.0,,order 614880 can you add 2 more monitors to the same shipment if not possible let me know,89,18
+Need status for order 22400 (keyboard). when will it ship? ordered last month,order_status,,22400.0,keyboard,need status for order 22400 keyboard when will it ship ordered last month,73,13
+"Software license activation keeps failing with ""license key invalid"" but we copied it exactly. What can we do?",technical_support,medium,,software license,software license activation keeps failing with license key invalid but we copied it exactly what can we do,106,18
+"Subj: Case 0012 - Our printer order 51012 got split but only 1/2 packages arrived, where is the rest?",delivery_issue,medium,51012.0,printer,our printer order 51012 got split but only 1 2 packages arrived where is the rest,81,16
+"Subj: Case 0185 - We need an updated statement, order 62024 keeps appearing w/ $250.00 balance.",credit_and_collections,,62024.0,,we need an updated statement order 62024 keeps appearing w 250 00 balance,73,13
+I want to cancel order 99999 and get refund if it already shipped pls,multiple_intents,,99999.0,,i want to cancel order 99999 and get refund if it already shipped pls,69,14
+"Subj: Case 0568 - Need sales contact for Indonesia, company size 500, soon pls.",sales_reps,medium,,,need sales contact for indonesia company size 500 soon pls,58,10
+"Hi, looking for the user manual for your printer (we have the OfficePrint 300). Any doc link?",product_docs,,,printer,hi looking for the user manual for your printer we have the officeprint 300 any doc link,88,17
+"Subj: Case 0204 - Can you confirm if order 62043 is actually unpaid? amount says $6100.00, seems off.",credit_and_collections,,62043.0,,can you confirm if order 62043 is actually unpaid amount says 6100 00 seems off,79,15
+Change delivery instructions on 80080 to leave at reception instead of dock.,order_modification_request,low,80080.0,,change delivery instructions on 80080 to leave at reception instead of dock,75,12
+Laptop keyboard fell apart after 2 days. so mad.,complaints,,,laptop,laptop keyboard fell apart after 2 days so mad,46,9
+Subj: Case 0814 - Can you delete my account entirely? privacy request.,out_of_scope,,,,can you delete my account entirely privacy request,50,8
+"Subj: Case 0194 - Credit limit got reduced after order 62033, and now you say $110.00 is overdue, pls review.",credit_and_collections,,62033.0,,credit limit got reduced after order 62033 and now you say 110 00 is overdue pls review,87,17
+Refund please for 55660 amount 120 reason: returned damaged,refund_request,,55660.0,,refund please for 55660 amount 120 reason returned damaged,58,9
+Subj: Case 0906 - Need order status on 68042 and also the software license key still not delivered (tech).,multiple_intents,,68042.0,,need order status on 68042 and also the software license key still not delivered tech,85,15
+"Subj: Case 0487 - Can you share firmware release notes for router, version 3.0.7?",product_docs,,,router,can you share firmware release notes for router version 3 0 7,61,12
+Need quickstart guide PDF for the 10-inch tablet (FieldTab). Not sure what revision but anything helps,product_docs,,,FieldTab tablet,need quickstart guide pdf for the 10 inch tablet fieldtab not sure what revision but anything helps,99,17
+My laptop fan is screaming loud after update. Can you help me fix this?,technical_support,medium,,laptop,my laptop fan is screaming loud after update can you help me fix this,69,14
+"Subj: Case 0449 - Price + stock for USB-C-1M qty 40, urgent pls.",pricing_and_availability,high,,,price stock for usb c 1m qty 40 urgent pls,42,10
+"Subj: Case 0418 - Software license price for qty 3, just need quick info.",pricing,medium,,software license,software license price for qty 3 just need quick info,53,10
+"I need to change my order 88765 — add extra cables, originally forgot them. Can you do it?",order_modification_request,medium,88765.0,,i need to change my order 88765 add extra cables originally forgot them can you do it,85,17
+Availability check SKU LK-900 for laptop docks? need 6,availability,,,laptop,availability check sku lk 900 for laptop docks need 6,53,10
+"Monitor shows 'no signal' when connected via DisplayPort, medium",technical_support,medium,,monitor,monitor shows no signal when connected via displayport medium,61,9
+Price for 15 monitors and mounting kits? Need full quote including VAT.,pricing,medium,,monitor,price for 15 monitors and mounting kits need full quote including vat,69,12
+"Do you offer internships? Totally different question, I know.",out_of_scope,,,,do you offer internships totally different question i know,58,9
+Need refund for 66789 $149.99 reason: late delivery caused us loss,refund_request,,66789.0,,need refund for 66789 149 99 reason late delivery caused us loss,64,12
+Returned order 41414 but still no confirmation and want to return printer — order 41414.,return_request,,41414.0,printer,returned order 41414 but still no confirmation and want to return printer order 41414,85,14
+"Hi, can you update my marketing email preferences? I'm getting too many promos lately, thx.",out_of_scope,,,,hi can you update my marketing email preferences i m getting too many promos lately thx,87,16
+"Subj: Case 0161 - Tablet OS is buggy and keeps freezing, regret this purchase.",complaints,,,tablet,tablet os is buggy and keeps freezing regret this purchase,58,10
+Do you offer internships? I'm a CS student and love your company.,out_of_scope,,,,do you offer internships i m a cs student and love your company,63,13
+Is SKU ZX-100 available? Need 100 pcs. pls confirm stock levels.,availability,,,cables,is sku zx 100 available need 100 pcs pls confirm stock levels,61,12
+"Router firmware glitch breaks wifi every hour, makes us mad",complaints,,,router,router firmware glitch breaks wifi every hour makes us mad,58,10
+"Subj: Case 0188 - I see a disputed charge for order 62027 $89.90, need the invoice copy pls.",credit_and_collections,,62027.0,,i see a disputed charge for order 62027 89 90 need the invoice copy pls,71,15
+Where's my refund for order 12120? amount 15.00 still not in account,refund_request,,12120.0,,where s my refund for order 12120 amount 15 00 still not in account,67,14
+"Need status on order #882019 (monitor). It’s been over a week, no emails.",order_status,,882019.0,monitor,need status on order 882019 monitor it s been over a week no emails,67,14
+Subj: Case 0983 - Can you send invoice for 68094 and also confirm return window? might send it back.,multiple_intents,,68094.0,,can you send invoice for 68094 and also confirm return window might send it back,80,15
+SKU KB-118B: how much and can you ship 12 this week? super urgent,pricing_and_availability,high,,,sku kb 118b how much and can you ship 12 this week super urgent,63,14
+Order 870044: can you add 3 more HDMI cables to the same shipment? not urgent but would be nice,order_modification_request,low,870044.0,,order 870044 can you add 3 more hdmi cables to the same shipment not urgent but would be nice,93,19
+"Register 'OfficeGoods' as vendor, biz type: reseller, region: Canada",vendor_registration,,,,register officegoods as vendor biz type reseller region canada,62,9
+"Subj: Case 0403 - Printer price for qty 7, pls.",pricing,medium,,printer,printer price for qty 7 pls,27,6
+"Subj: Case 0402 - Router pricing qty 12, not urgent but this week would be good.",pricing,medium,,router,router pricing qty 12 not urgent but this week would be good,60,12
+"Subj: Case 0855 - Need to change shipping address on order 68004 + also send invoice pdf, asap pls.",multiple_intents,,68004.0,,need to change shipping address on order 68004 also send invoice pdf asap pls,77,14
+"Hi, we want to register as a vendor. Company name: NorthBridge IT LLC, business type: reseller, region: US.",vendor_registration,,,,hi we want to register as a vendor company name northbridge it llc business type reseller region us,99,18
+"I need price for AB-2234 and also availability XZ9981, order later",multiple_intents,,,,i need price for ab 2234 and also availability xz9981 order later,65,12
+"Tablet lags terribly even after reset, unhappy",complaints,,,tablet,tablet lags terribly even after reset unhappy,45,7
+"Need software license price for 500 seats, very urgent",pricing,high,,software license,need software license price for 500 seats very urgent,53,9
+Can you send product manual for the router model? Need installation guide v2.0 if available.,product_docs,,,router,can you send product manual for the router model need installation guide v2 0 if available,90,16
+"Subj: Case 0004 - I think you shipped my printer to the old address for order 51004, need it rerouted pls.",delivery_issue,medium,51004.0,printer,i think you shipped my printer to the old address for order 51004 need it rerouted pls,86,17
+"Quote for 5 printers and 10 cartridges please, need procurement approval next week.",pricing,medium,,printer,quote for 5 printers and 10 cartridges please need procurement approval next week,81,13
+Need product brochure for keyboard K-Pro version 2.3,product_docs,,,keyboard,need product brochure for keyboard k pro version 2 3,52,10
+"Subj: Case 0352 - Cables order 65032: status check, ordered yesterday afternoon.",order_status,,65032.0,cables,cables order 65032 status check ordered yesterday afternoon,59,8
+I got a phishing email pretending to be you—where do I report it?,out_of_scope,,,,i got a phishing email pretending to be you where do i report it,64,14
+Order status pls for 99887 - server rack - when will it ship?,order_status,,99887.0,server rack,order status pls for 99887 server rack when will it ship,56,11
+Are tablets model TA-1 available? need 6 units,availability,,,tablet,are tablets model ta 1 available need 6 units,45,9
+Subj: Case 0999 - Delivery issue on order 68103 (server rack rails bent) and we need return started asap.,multiple_intents,,68103.0,,delivery issue on order 68103 server rack rails bent and we need return started asap,84,15
+"Subj: Case 0039 - Order 51039 cables were delivered but to the dock next door, can you confirm signature?",delivery_issue,medium,51039.0,cables,order 51039 cables were delivered but to the dock next door can you confirm signature,85,15
+SKU ABX-44 available? Need 4 routers for branch office next month.,availability,,,router,sku abx 44 available need 4 routers for branch office next month,64,12
+Are there 2TB SSDs in stock under SKU SS-200? Need 10 for a build.,availability,,,server rack,are there 2tb ssds in stock under sku ss 200 need 10 for a build,64,15
+"Subj: Case 0681 - Need return for keyboard order 66043, reason: keycap letters fading fast.",return_request,,66043.0,keyboard,need return for keyboard order 66043 reason keycap letters fading fast,70,11
+Return monitor 21212 because color calibration is off,return_request,,21212.0,monitor,return monitor 21212 because color calibration is off,53,8
+Looking for a sales rep in Benelux; company size 35.,sales_reps,low,,,looking for a sales rep in benelux company size 35,50,10
+pls email invoice for order 588104. need it today for expense report,invoice_request,high,588104.0,,pls email invoice for order 588104 need it today for expense report,67,12
+"Need contact for sales in LATAM, company size ~150, medium",sales_reps,medium,,,need contact for sales in latam company size 150 medium,55,10
+"Subj: Case 0464 - Server rack SR-9U-WALL2: price + availability qty 5, no rush.",pricing_and_availability,low,,,server rack sr 9u wall2 price availability qty 5 no rush,56,11
+"Hi, are the HDMI cables back in stock yet? Need like 50, pls.",availability,,,cables,hi are the hdmi cables back in stock yet need like 50 pls,57,13
+"Hey there, status check for order 947520 (software license). Need to know if activation is queued or already sent.",order_status,,947520.0,software license,hey there status check for order 947520 software license need to know if activation is queued or already sent,109,19
+Only 1 box arrived but the order had cables + a keyboard. It says delivered (??). Order 640771,delivery_issue,medium,640771.0,cables and keyboard,only 1 box arrived but the order had cables a keyboard it says delivered order 640771,85,16
+Subj: Case 0499 - Do you have a certificate of conformity for the cables?,product_docs,,,cables,do you have a certificate of conformity for the cables,54,10
+Please send user manual for keyboard K-500 version 5,product_docs,,,keyboard,please send user manual for keyboard k 500 version 5,52,10
+"Subj: Case 0029 - order 51029 server rack is missing bolts/parts, cant assemble, need the kit asap.",delivery_issue,high,51029.0,server rack,order 51029 server rack is missing bolts parts cant assemble need the kit asap,78,14
+"I want to donate old hardware, is there a program?",out_of_scope,,,,i want to donate old hardware is there a program,48,10
+"Vendor reg for PrintCo, type: supplier, region: UK",vendor_registration,,,,vendor reg for printco type supplier region uk,46,8
+"Can a sales rep reach out for pricing on bulk monitors? Region: US, we are 800 employees.",sales_reps,medium,,,can a sales rep reach out for pricing on bulk monitors region us we are 800 employees,85,17
+Subj: Case 0328 - Order 65008 tablet: any ETA? ordered 3 weeks ago.,order_status,,65008.0,tablet,order 65008 tablet any eta ordered 3 weeks ago,46,9
+"Subj: Case 0467 - Quote + stock for AB-2236 router qty 9, urgent for bid.",pricing_and_availability,high,,,quote stock for ab 2236 router qty 9 urgent for bid,51,11
+"Subj: Case 0314 - Please add 1 monitor arm to order 64048, if it hasnt shipped.",order_modification_request,medium,64048.0,,please add 1 monitor arm to order 64048 if it hasnt shipped,59,12
+"Subj: Case 0103 - Router sku RT-VPN20, need qty 4, any stock?",availability,,,router,router sku rt vpn20 need qty 4 any stock,40,9
+"Subj: Case 0215 - Need invoice for order 63001, can you email PDF today pls (auditor needs it).",invoice_request,high,63001.0,,need invoice for order 63001 can you email pdf today pls auditor needs it,73,14
+Subj: Case 0741 - Refund pls order 67050 amount 799 reason: credit memo not applied.,refund_request,,67050.0,,refund pls order 67050 amount 799 reason credit memo not applied,64,11
+"Order 37300 shows shipped but tracking 404, what's the delay? keyboard needed",delivery_issue,medium,37300.0,keyboard,order 37300 shows shipped but tracking 404 what s the delay keyboard needed,75,13
+Subj: Case 0506 - Do you have router security whitepaper? need for IT review.,product_docs,,,router,do you have router security whitepaper need for it review,57,10
+"Subj: Case 0035 - Monitor order 51035 is delayed due to 'weather' but we're on a deadline, pls expedite.",delivery_issue,high,51035.0,monitor,monitor order 51035 is delayed due to weather but we re on a deadline pls expedite,82,16
+"Subj: Case 0193 - Need help reconciling: order 62032 shows $312.12 due, but our ledger says paid.",credit_and_collections,,62032.0,,need help reconciling order 62032 shows 312 12 due but our ledger says paid,75,14
+Subj: Case 0880 - Monitor not working (no signal) on order 68022 and i want a refund if no fix.,multiple_intents,,68022.0,,monitor not working no signal on order 68022 and i want a refund if no fix,74,16
+"Subj: Case 0111 - Printer quality is awful, streaks on every page, not acceptable.",complaints,,,printer,printer quality is awful streaks on every page not acceptable,61,10
+"Need price & stock for CB-450 qty 100, pls",pricing_and_availability,medium,,,need price stock for cb 450 qty 100 pls,39,9
+Subj: Case 0496 - Can i get the dimensional drawing for server rack? (cad/pdf).,product_docs,,,server rack,can i get the dimensional drawing for server rack cad pdf,57,11
+Courier marked delivered but the printer isn't here... Order 6955012. This is urgent!,delivery_issue,high,6955012.0,printer,courier marked delivered but the printer isn t here order 6955012 this is urgent,80,14
+"Subj: Case 0319 - Please update order 64053 to ship partial now and backorder rest, thx.",order_modification_request,medium,64053.0,,please update order 64053 to ship partial now and backorder rest thx,68,12
+"Subj: Case 0579 - Please connect sales for Hong Kong, enterprise, urgent for tender.",sales_reps,high,,,please connect sales for hong kong enterprise urgent for tender,63,10
+Keyboard arrived with keys missing letters. poor QC,complaints,,,keyboard,keyboard arrived with keys missing letters poor qc,50,8
+"Hi, we'd like to register as vendor — company: SilverTech Solutions, we're an llc, region: EU.",vendor_registration,,,,hi we d like to register as vendor company silvertech solutions we re an llc region eu,86,17
+"Subj: Case 0639 - Want to return order 66001 laptop, reason: battery wont hold charge.",return_request,,66001.0,laptop,want to return order 66001 laptop reason battery wont hold charge,65,11
+"Subj: Case 0323 - Need update on order 65003 printer, placed on 2026-02-10.",order_status,,65003.0,printer,need update on order 65003 printer placed on 2026 02 10,55,11
+"Subj: Case 0305 - Order 64039: can you change the monitor size to 32in, urgent if possible.",order_modification_request,high,64039.0,,order 64039 can you change the monitor size to 32in urgent if possible,70,13
+"Subj: Case 0234 - Please send invoice for order 63014, we need it for reimbursement.",invoice_request,medium,63014.0,,please send invoice for order 63014 we need it for reimbursement,64,11
+"Can you confirm availability + pricing for AB-2234, qty 200 (bulk).",pricing_and_availability,medium,,,can you confirm availability pricing for ab 2234 qty 200 bulk,61,11
+Refund for order 61616 amount 75.00 — returned item but refund not processed.,refund_request,,61616.0,,refund for order 61616 amount 75 00 returned item but refund not processed,74,13
+"The printer keeps jamming and prints lines across pages. brand new, very frustrated.",complaints,,,printer,the printer keeps jamming and prints lines across pages brand new very frustrated,81,13
+Please cancel order 7188201 if it hasn't shipped yet. Sorry for the late notice.,order_modification_request,high,7188201.0,,please cancel order 7188201 if it hasn t shipped yet sorry for the late notice,78,15
+Refund for 67676 amount 1200 reason: item not as described,refund_request,,67676.0,,refund for 67676 amount 1200 reason item not as described,57,10
+I'd like to partner for joint marketing - where to apply?,out_of_scope,,,,i d like to partner for joint marketing where to apply,54,11
+"Invoice for 20202 (Dec 2025) required, low urgency",invoice_request,low,20202.0,,invoice for 20202 dec 2025 required low urgency,47,8
+"We were charged twice on order 66777 amount 2500, please refund duplicate.",credit_and_collections,,66777.0,,we were charged twice on order 66777 amount 2500 please refund duplicate,72,12
+Subj: Case 0895 - Need invoice for order 68033 plus please correct the PO number on it.,multiple_intents,,68033.0,,need invoice for order 68033 plus please correct the po number on it,68,13
+Where can I find your privacy policy and data retention info? Legal team is asking.,out_of_scope,,,,where can i find your privacy policy and data retention info legal team is asking,81,15
+"We want a sales rep for small company in EU, ~45 ppl, low urgency",sales_reps,low,,,we want a sales rep for small company in eu 45 ppl low urgency,62,14
+My printer shipment is stuck in limbo... tracking hasn’t moved in 5 days and we need it for the office. Order 517604,delivery_issue,high,517604.0,printer,my printer shipment is stuck in limbo tracking hasn t moved in 5 days and we need it for the office order 517604,112,23
+Software license 98989 activation status? bought today,order_status,,98989.0,software license,software license 98989 activation status bought today,53,7
+"How much for 200 CAT6 cables (3ft)? send rough pricing, no rush",pricing,low,,CAT6 cables 3ft,how much for 200 cat6 cables 3ft send rough pricing no rush,59,12
+Subj: Case 0457 - Can you provide price + stock on TB-EDU11 qty 20?,pricing_and_availability,medium,,,can you provide price stock on tb edu11 qty 20,46,10
+"Hey, can someone from sales contact us in APAC for large deployment? company size 2500",sales_reps,high,,,hey can someone from sales contact us in apac for large deployment company size 2500,84,15
+"Cables cause crosstalk in our audio system, medium",technical_support,medium,,cables,cables cause crosstalk in our audio system medium,49,8
+Complaint: keyboard arrived with sticky residue and smells like glue,complaints,,,keyboard,complaint keyboard arrived with sticky residue and smells like glue,67,10
+"We got a late payment notice for order 77512 but we already paid? Order 77512 — pls advise, amount shows 1200 on statement.",credit_and_collections,,77512.0,,we got a late payment notice for order 77512 but we already paid order 77512 pls advise amount shows 1200 on statement,118,22
+Why is there a late fee on order 99012? We paid on time!,credit_and_collections,,99012.0,,why is there a late fee on order 99012 we paid on time,54,13
+Can you tell me who covers NYC metro for enterprise accounts? we’re 2k staff. not urgent just intro,sales_reps,low,,,can you tell me who covers nyc metro for enterprise accounts we re 2k staff not urgent just intro,97,19
+"Subj: Case 0779 - Software license installer fails with 'missing dependency', pls help asap.",technical_support,high,,software license,software license installer fails with missing dependency pls help asap,70,10
+"Subj: Case 0226 - Can you send invoices for Mar 2026, we have audit tomorrow, urgent.",invoice_request,high,,,can you send invoices for mar 2026 we have audit tomorrow urgent,64,12
+"Registering vendor: TechParts Ltd, wholesaler, region: Ireland. Pls advise next steps.",vendor_registration,,,,registering vendor techparts ltd wholesaler region ireland pls advise next steps,80,11
+What's the statuz on 33881 tablet order? placed 4 days ago,order_status,,33881.0,tablet,what s the statuz on 33881 tablet order placed 4 days ago,57,12
+Need the user manual for the AeroWave router. what version is current? thx,product_docs,,,AeroWave router,need the user manual for the aerowave router what version is current thx,72,13
+My router keeps dropping connection since day 1. Not happy at all,complaints,,,router,my router keeps dropping connection since day 1 not happy at all,64,12
+"Can I return the tablet on order 808314? It's unopened, we ended up not needing it.",return_request,,808314.0,tablet,can i return the tablet on order 808314 it s unopened we ended up not needing it,80,17
+Can you cancel order 641085? It was placed by mistake and i need it stopped asap,order_modification_request,high,641085.0,,can you cancel order 641085 it was placed by mistake and i need it stopped asap,79,16
+"Subj: Case 0277 - Order 64010: change billing address (old one is wrong), when you can.",order_modification_request,low,64010.0,,order 64010 change billing address old one is wrong when you can,64,12
+"Pricing request for software license (annual). Need 50 seats, pls send info.",pricing,medium,,software license,pricing request for software license annual need 50 seats pls send info,71,12
+"Share install video link for keyboard, rev A.",product_docs,,,keyboard,share install video link for keyboard rev a,43,8
+"Hi, please register our company: EdgeWorks, reseller, Europe region",vendor_registration,,,,hi please register our company edgeworks reseller europe region,63,9
+Return request: order 70770 monitor — wrong item size and wont fit rack.,return_request,,70770.0,monitor,return request order 70770 monitor wrong item size and wont fit rack,68,12
+"Complaint: monitor has dead pixel cluster, unacceptable quality",complaints,,,monitor,complaint monitor has dead pixel cluster unacceptable quality,61,8
+"Tablet pricing for 40 units, low priority",pricing,low,,tablet,tablet pricing for 40 units low priority,40,7
+"Can 'CableMart' be added as vendor? business_type: distributor, region: UK",vendor_registration,,,,can cablemart be added as vendor business type distributor region uk,68,11
+"Return request: order #6500881 monitor doesn't fit our mounts, can we send it back?",return_request,,6500881.0,monitor,return request order 6500881 monitor doesn t fit our mounts can we send it back,79,15
+"My server rack quote missing taxes, need final invoice for order 10101",invoice_request,medium,10101.0,,my server rack quote missing taxes need final invoice for order 10101,69,12
+"I need a refund for order 401885, the printer was never used and we already replaced it. Refund amount should be 299.99.",refund_request,,401885.0,,i need a refund for order 401885 the printer was never used and we already replaced it refund amount should be 299 99,117,23
+Subj: Case 0931 - Price+availability for TB-EDU11 qty 20 and also can you connect a sales rep for Brazil?,multiple_intents,,,,price availability for tb edu11 qty 20 and also can you connect a sales rep for brazil,86,17
+"You sent us to collections for $540 but that order was canceled. Order 668190, please correct ASAP.",credit_and_collections,,668190.0,,you sent us to collections for 540 but that order was canceled order 668190 please correct asap,95,17
+"Subj: Case 0127 - Laptop trackpad is glitchy, cursor jumps around, super annoying.",complaints,,,laptop,laptop trackpad is glitchy cursor jumps around super annoying,61,9
+Subj: Case 0817 - Do you offer student discounts? just asking.,out_of_scope,,,,do you offer student discounts just asking,42,7
+"Pricing and availability: SKU RT-77 for routers, qty 40, urgent deployment",pricing_and_availability,high,,,pricing and availability sku rt 77 for routers qty 40 urgent deployment,71,12
+"Hi, can you tell me where order 701155 is at AND also resend the invoice? Need both asap pls.",multiple_intents,,701155.0,,hi can you tell me where order 701155 is at and also resend the invoice need both asap pls,90,19
+"Please update order 70701 to include expedited handling, order id 70701.",order_modification_request,high,70701.0,,please update order 70701 to include expedited handling order id 70701,70,11
+I need to change shipping on 44444 and also request refund if it can't be delivered,multiple_intents,,44444.0,,i need to change shipping on 44444 and also request refund if it can t be delivered,83,17
+XZ1111 availability for 100 units? low urgent,pricing_and_availability,low,,,xz1111 availability for 100 units low urgent,44,7
+SL-1 software licenses available for 1000 seats? urgent,availability,,,software license,sl 1 software licenses available for 1000 seats urgent,54,9
+Subj: Case 0377 - Can i get a quote for 6 monitors? thanks.,pricing,medium,,monitor,can i get a quote for 6 monitors thanks,39,9
+Change shipping address on 99009 to office address asap,order_modification_request,high,99009.0,,change shipping address on 99009 to office address asap,55,9
+Complaint: software license not working + request refund order 14141,multiple_intents,,14141.0,,complaint software license not working request refund order 14141,65,9
+"Subj: Case 0135 - Software license key you sent was invalid, we wasted hours.",complaints,,,software license,software license key you sent was invalid we wasted hours,57,10
+"Subj: Case 0167 - Dispute: late fee on order 62006 for $35.00, pls waive it.",credit_and_collections,,62006.0,,dispute late fee on order 62006 for 35 00 pls waive it,54,12
+"Complaint: printer smells burnt when printing, dangerous!",complaints,,,printer,complaint printer smells burnt when printing dangerous,54,7
+Subj: Case 0715 - Please issue refund for order 67024 amount 13.40 reason: overcharge.,refund_request,,67024.0,,please issue refund for order 67024 amount 13 40 reason overcharge,66,11
+Can u resend the invoice for Q4 2025? Finance is bugging me lol.,invoice_request,medium,,,can u resend the invoice for q4 2025 finance is bugging me lol,62,13
+"Subj: Case 0765 - Keyboard macro software wont launch (spins then closes), pls help.",technical_support,medium,,keyboard,keyboard macro software wont launch spins then closes pls help,62,10
+"Vendor registration enquiry: ElectroHub, retailer, region: Singapore.",vendor_registration,,,,vendor registration enquiry electrohub retailer region singapore,64,7
+"Subj: Case 0010 - Order 51010 laptop arrived with missing charger, can you send the part?",delivery_issue,medium,51010.0,laptop,order 51010 laptop arrived with missing charger can you send the part,69,12
+Subj: Case 0968 - Delivery issue order 68084 (wrong keyboard) and i need refund once returned.,multiple_intents,,68084.0,,delivery issue order 68084 wrong keyboard and i need refund once returned,73,12
+"Subj: Case 0971 - Need price/avail for SW-PRO-51 qty 50 and also activation guide doc, pls.",multiple_intents,,,,need price avail for sw pro 51 qty 50 and also activation guide doc pls,71,15
+"Please share safety sheet for monitor, rev 1.",product_docs,,,monitor,please share safety sheet for monitor rev 1,43,8
+"Subj: Case 0776 - Printer scan-to-email fails with auth error, can you guide us?",technical_support,medium,,printer,printer scan to email fails with auth error can you guide us,60,12
+Website kept throwing errors at checkout and cleared my cart twice. really frustrating.,complaints,,,,website kept throwing errors at checkout and cleared my cart twice really frustrating,85,13
+Returning the monitor from order 7319045—dead pixels out of the box.,return_request,,7319045.0,monitor,returning the monitor from order 7319045 dead pixels out of the box,67,12
+"Subj: Case 0138 - Printer scanner doesnt detect paper half the time, super unreliable.",complaints,,,printer,printer scanner doesnt detect paper half the time super unreliable,66,10
+Can you send the invoice for order 771204? Our AP team needs it today pls.,invoice_request,high,771204.0,,can you send the invoice for order 771204 our ap team needs it today pls,72,15
+"Subj: Case 0136 - Laptop came with scratches on the lid, looks refurbished.",complaints,,,laptop,laptop came with scratches on the lid looks refurbished,55,9
+"hello, i need docs for keyboard — wiring diagram version 1.2",product_docs,,,keyboard,hello i need docs for keyboard wiring diagram version 1 2,57,11
+Subj: Case 0742 - Please issue refund order 67051 amount 15000 reason: duplicate billing.,refund_request,,67051.0,,please issue refund order 67051 amount 15000 reason duplicate billing,69,10
+Can you change order 872640 qty down (we ordered too many cables) and confirm the updated price total?,multiple_intents,,872640.0,,can you change order 872640 qty down we ordered too many cables and confirm the updated price total,99,18
+Subj: Case 0210 - Why did you send order 62049 to collections when we were disputing? amount $540.00.,credit_and_collections,,62049.0,,why did you send order 62049 to collections when we were disputing amount 540 00,80,15
+"Subj: Case 0794 - Software license says 'too many activations', we only have 3 users, urgent.",technical_support,high,,software license,software license says too many activations we only have 3 users urgent,70,12
+Cables intermittent and causing outages. this is unacceptable,complaints,,,cables,cables intermittent and causing outages this is unacceptable,60,8
+"Subj: Case 0407 - Keyboard bulk price for qty 60, pls reply soon.",pricing,medium,,keyboard,keyboard bulk price for qty 60 pls reply soon,45,9
+Subj: Case 0263 - Can you send invoice for order 63036? no urgency.,invoice_request,low,63036.0,,can you send invoice for order 63036 no urgency,47,9
+"Subj: Case 0217 - Please send invoices for Feb 2026 period, our AP team is reconciling.",invoice_request,medium,,,please send invoices for feb 2026 period our ap team is reconciling,67,12
+"This printer I bought is absolute rubbish, keeps jamming and making noises. Very disappointed.",complaints,,,printer,this printer i bought is absolute rubbish keeps jamming and making noises very disappointed,91,14
+"Checking on order #516782 for a server rack, placed around 2 weeks ago. Still says processing on the portal.",order_status,,516782.0,server rack,checking on order 516782 for a server rack placed around 2 weeks ago still says processing on the portal,104,19
+"Subj: Case 0537 - Who handles EMEA? we’re mid-market (800 employees), need a call this week.",sales_reps,medium,,,who handles emea we re mid market 800 employees need a call this week,69,14
+Do you guys have the ergonomic keyboard in stock? I only need 1 but want it this week.,availability,,,keyboard,do you guys have the ergonomic keyboard in stock i only need 1 but want it this week,84,18
+Can you tell me if SKU AB-2234 (printer) is in stock? Need 3 units for next week.,availability,,,printer,can you tell me if sku ab 2234 printer is in stock need 3 units for next week,77,18
+"Subj: Case 0836 - Your newsletter has broken links, fyi.",out_of_scope,,,,your newsletter has broken links fyi,36,6
+Why is my invoice missing for order 90909? Needed for expense report,invoice_request,medium,90909.0,,why is my invoice missing for order 90909 needed for expense report,67,12
+"Keyboard USB not recognized by PC, low priority",technical_support,low,,keyboard,keyboard usb not recognized by pc low priority,46,8
+"Subj: Case 0610 - Start vendor registration pls: MetroPrint Consumables, business type supplier, region US-East.",vendor_registration,,,,start vendor registration pls metroprint consumables business type supplier region us east,90,12
+"My monitor arrived with color banding, return? Very poor QC on this batch.",complaints,,,monitor,my monitor arrived with color banding return very poor qc on this batch,71,13
+"Need to know if you have any router units left, SKU RT55-A1. Looking for 2, today if possible.",availability,,,router,need to know if you have any router units left sku rt55 a1 looking for 2 today if possible,90,19
+"Subj: Case 0056 - Checking avail: XZ9981 laptop, i need 10 units for next month.",availability,,,laptop,checking avail xz9981 laptop i need 10 units for next month,59,11
+"Subj: Case 0391 - Software license pricing for qty 5, can you share?",pricing,medium,,software license,software license pricing for qty 5 can you share,48,9
+"Received invoice without VAT number for order 98989, need corrected invoice",invoice_request,medium,98989.0,,received invoice without vat number for order 98989 need corrected invoice,74,11
+My monitor arrived but it's the wrong model  — return pls for order 41414,return_request,,41414.0,monitor,my monitor arrived but it s the wrong model return pls for order 41414,70,14
+Subj: Case 0819 - Can you help me update our company’s vendor tax info? not sure who owns that.,out_of_scope,,,,can you help me update our company s vendor tax info not sure who owns that,75,16
+"Subj: Case 0545 - Sales rep request for France region; startup (8 ppl), pls reply when you can.",sales_reps,low,,,sales rep request for france region startup 8 ppl pls reply when you can,72,14
+"Subj: Case 0786 - Monitor HDR option greyed out, how do we enable?",technical_support,low,,monitor,monitor hdr option greyed out how do we enable,46,9
+"Subj: Case 0578 - Need sales rep for Kenya, mid-market (600 ppl), not urgent.",sales_reps,low,,,need sales rep for kenya mid market 600 ppl not urgent,54,11
+"Subj: Case 0378 - Pricing request: ethernet cables qty 50, pls share best rate.",pricing,medium,,cables,pricing request ethernet cables qty 50 pls share best rate,58,10
+"We were billed incorrectly for order 23232, amount charged 980 but PO was 480, pls correct.",credit_and_collections,,23232.0,,we were billed incorrectly for order 23232 amount charged 980 but po was 480 pls correct,88,16
+"Subj: Case 0491 - Need mount instructions for monitor, version v2 maybe?",product_docs,,,monitor,need mount instructions for monitor version v2 maybe,52,8
+Vendor sign-up for 'KeyWorks' manufacturer in US,vendor_registration,,,,vendor sign up for keyworks manufacturer in us,46,8
+"Subj: Case 0606 - Vendor onboarding: CedarWorks Manufacturing, business type manufacturer, region US-Midwest.",vendor_registration,,,,vendor onboarding cedarworks manufacturing business type manufacturer region us midwest,87,10
+"Hello, my order 55600 says delivered but i didnt get it. Pls check asap it's a laptop.",delivery_issue,high,55600.0,laptop,hello my order 55600 says delivered but i didnt get it pls check asap it s a laptop,83,18
+M-1 monitor availability for 7 units,availability,,,monitor,m 1 monitor availability for 7 units,36,7
+Send invoice for 12121 for March 2026 pls,invoice_request,low,12121.0,,send invoice for 12121 for march 2026 pls,41,8
+"Subj: Case 0002 - Hey, order 51002 (router) says delivered but we didnt recieve anything, can you check?",delivery_issue,medium,51002.0,router,hey order 51002 router says delivered but we didnt recieve anything can you check,81,14
+"Subj: Case 0752 - Server rack door lock jammed, cant open it, need help today.",technical_support,high,,server rack,server rack door lock jammed cant open it need help today,57,11
+"Subj: Case 0228 - invoice for order 63010 pls, our system shows missing doc.",invoice_request,medium,63010.0,,invoice for order 63010 pls our system shows missing doc,56,10
+"Subj: Case 0312 - Cancel order 64046, please confirm cancellation email back to me.",order_modification_request,high,64046.0,,cancel order 64046 please confirm cancellation email back to me,63,10
+"Subj: Case 0178 - Statement shows interest on order 62017 ($18.75) but terms are net30, pls remove.",credit_and_collections,,62017.0,,statement shows interest on order 62017 18 75 but terms are net30 pls remove,76,14
+How much for 4 server racks? urgent installation next week,pricing,high,,server rack,how much for 4 server racks urgent installation next week,57,10
+"Subj: Case 0598 - Please add us as vendor, company name: KeyClick Accessories, business type distributor, region France.",vendor_registration,,,,please add us as vendor company name keyclick accessories business type distributor region france,97,14
+"Subj: Case 0688 - Need to return cables order 66050, reason: wrong item sent.",return_request,,66050.0,cables,need to return cables order 66050 reason wrong item sent,56,10
+"Looking at SKU LIC-9Z10, need 25 licenses—price + stock/lead time?",pricing_and_availability,medium,,,looking at sku lic 9z10 need 25 licenses price stock lead time,62,12
+Are there tablets TAB-900 in stock? Need 30 for classroom use next month.,availability,,,tablet,are there tablets tab 900 in stock need 30 for classroom use next month,71,14
+Order 77222 never arrived and I want refund. order#77222 pls sort,multiple_intents,,77222.0,,order 77222 never arrived and i want refund order 77222 pls sort,64,12
+"Subj: Case 0327 - Can you check status of order 65007 keyboard, ordered yesterday.",order_status,,65007.0,keyboard,can you check status of order 65007 keyboard ordered yesterday,62,10
+"Subj: Case 0376 - Please send pricing for printer, qty 2, need it today for approval.",pricing,high,,printer,please send pricing for printer qty 2 need it today for approval,64,12
+need 50 cables SKU: CB-450. Are these available?,availability,,,cables,need 50 cables sku cb 450 are these available,45,9
+What's the statuz of order 650129? It was a tablet purchase from last Friday.,order_status,,650129.0,tablet,what s the statuz of order 650129 it was a tablet purchase from last friday,75,15
+Are the tablets TAB-X available? need 9 pcs for training next month.,availability,,,tablet,are the tablets tab x available need 9 pcs for training next month,66,13
+"Subj: Case 0023 - order 51023 cables came 2 days late and now we missed install, pls advise.",delivery_issue,medium,51023.0,cables,order 51023 cables came 2 days late and now we missed install pls advise,72,14
+Subj: Case 0349 - Router order 65029: is it shipped? ordered last Thursday.,order_status,,65029.0,router,router order 65029 is it shipped ordered last thursday,54,9
+"Keyboard stutters when typing, infuriating",complaints,,,keyboard,keyboard stutters when typing infuriating,41,5
+"Subj: Case 0261 - Send invoice for order 63034 pls, we need it for warranty reg.",invoice_request,medium,63034.0,,send invoice for order 63034 pls we need it for warranty reg,60,12
+I want to change billing on 33333 and also resend invoice period Mar 2026,multiple_intents,,33333.0,,i want to change billing on 33333 and also resend invoice period mar 2026,73,14
+"My package was left in the rain, printer soaked. Order 7222102. Help fast.",delivery_issue,high,7222102.0,printer,my package was left in the rain printer soaked order 7222102 help fast,70,13
+Router keeps dropping (tech support) and I want to cancel order 88400,multiple_intents,,88400.0,,router keeps dropping tech support and i want to cancel order 88400,67,12
+"Subj: Case 0780 - Keyboard double types letters (like 'ss' when i press once), help.",technical_support,medium,,keyboard,keyboard double types letters like ss when i press once help,60,11
+Is there a PDF manual for monitor model UltraView? need assembly instructions,product_docs,,,monitor,is there a pdf manual for monitor model ultraview need assembly instructions,76,12
+any stock for monitor XZ9981? want 2 for our office,availability,,,monitor,any stock for monitor xz9981 want 2 for our office,50,10
+"Server rack pricing for 6 units, medium",pricing,medium,,server rack,server rack pricing for 6 units medium,38,7
+"Subj: Case 0593 - Need vendor registration for IronGate Racks, business type fabricator, region Mexico.",vendor_registration,,,,need vendor registration for irongate racks business type fabricator region mexico,82,11
+Subj: Case 0303 - Order 64037: update the quantity of software licenses from 5 to 8 pls.,order_modification_request,medium,64037.0,,order 64037 update the quantity of software licenses from 5 to 8 pls,68,13
+Subj: Case 0928 - Return server rack order 68058 (rails warped) and request refund 899.00.,multiple_intents,,68058.0,,return server rack order 68058 rails warped and request refund 899 00,69,12
+"Return request order 50050 — software license wrong edition, want return.",return_request,,50050.0,software license,return request order 50050 software license wrong edition want return,69,10
+"Order 25252 cables delayed, tracking hasn't updated, medium",delivery_issue,medium,25252.0,cables,order 25252 cables delayed tracking hasn t updated medium,57,9
+"Send invoice for order 6991202 covering Sep–Oct 2024, pls.",invoice_request,low,6991202.0,,send invoice for order 6991202 covering sep oct 2024 pls,56,10
+Order 99009 tablet return — battery swelling. reason: safety defect,return_request,,99009.0,tablet,order 99009 tablet return battery swelling reason safety defect,63,9
+My keyboard backspace key missing from package. order 52525,delivery_issue,medium,52525.0,keyboard,my keyboard backspace key missing from package order 52525,58,9
+"Subj: Case 0238 - Please provide invoice for order 63017 today, AP closes at 3pm.",invoice_request,high,63017.0,,please provide invoice for order 63017 today ap closes at 3pm,61,11
+"Subj: Case 0196 - Order 62035 was prepaid, but statement shows $200.00 due, pls correct.",credit_and_collections,,62035.0,,order 62035 was prepaid but statement shows 200 00 due pls correct,66,12
+"My order 22222 hasn't been charged but items shipped? collections emailed me, weird",credit_and_collections,,22222.0,,my order 22222 hasn t been charged but items shipped collections emailed me weird,81,14
+"We need a renewed quote for 50 software licenses, and finance wants it today. Pls send ASAP.",pricing,high,,software license,we need a renewed quote for 50 software licenses and finance wants it today pls send asap,89,17
+"Subj: Case 0388 - Need a quick quote for server rack qty 2, please asap.",pricing,high,,server rack,need a quick quote for server rack qty 2 please asap,52,11
+"KBD-001 in stock for 30 units? Need price, medium",pricing_and_availability,medium,,,kbd 001 in stock for 30 units need price medium,47,10
+"Please send statement for order 33320, there's an amount $450.25 due",credit_and_collections,,33320.0,,please send statement for order 33320 there s an amount 450 25 due,66,13
+"Subj: Case 0431 - Need pricing/avail for cable sku CBL-2M-WH, qty 40, asap.",pricing_and_availability,high,,,need pricing avail for cable sku cbl 2m wh qty 40 asap,54,12
+"Subj: Case 0459 - Need quote + availability for MN-IPS27B qty 3, asap.",pricing_and_availability,high,,,need quote availability for mn ips27b qty 3 asap,48,9
+Availability: SKU PR-7 for printers? need 2 by next week,availability,,,printer,availability sku pr 7 for printers need 2 by next week,54,11
+"Subj: Case 0298 - Order 64032: add 3-year warranty add-on, can you do that quickly?",order_modification_request,high,64032.0,,order 64032 add 3 year warranty add on can you do that quickly,62,13
+We returned the keyboard already (order 645902) but havent recieved the refund. Amount was 79.50 i think.,refund_request,,645902.0,,we returned the keyboard already order 645902 but havent recieved the refund amount was 79 50 i think,101,18
+"Subj: Case 0626 - Vendor registration: Coral Keyboard Studio, business type manufacturer, region Portugal.",vendor_registration,,,,vendor registration coral keyboard studio business type manufacturer region portugal,84,10
+Recieved wrong adapter with the laptop order 90908 — need correct part,delivery_issue,medium,90908.0,laptop,recieved wrong adapter with the laptop order 90908 need correct part,68,11
+"Subj: Case 0309 - Please remove the tablet case add-on from order 64043, keep tablet.",order_modification_request,medium,64043.0,,please remove the tablet case add on from order 64043 keep tablet,65,12
+"Subj: Case 0517 - Printer environmental compliance statement (RoHS), pls share.",product_docs,,,printer,printer environmental compliance statement rohs pls share,57,7
+Subj: Case 0728 - Pls refund order 67037 amount 999.95 reason: laptop returned (defect).,refund_request,,67037.0,,pls refund order 67037 amount 999 95 reason laptop returned defect,66,11
+"Subj: Case 0930 - Keyboard not detected (support) and i also want to return it if no fix, order 68060.",multiple_intents,,68060.0,,keyboard not detected support and i also want to return it if no fix order 68060,80,16
+"Please register our small biz: TinyTech, reseller, NA region",vendor_registration,,,,please register our small biz tinytech reseller na region,57,9
+"Looking for warranty terms for keyboard KB-77, version 2024",product_docs,,,keyboard,looking for warranty terms for keyboard kb 77 version 2024,58,10
+Subj: Case 0940 - Tablet stuck on update (support) and also can you tell me status of order 68066 shipment?,multiple_intents,,68066.0,,tablet stuck on update support and also can you tell me status of order 68066 shipment,86,16
+Order 17170 — can you cancel one item from the order? printer removal,order_modification_request,medium,17170.0,,order 17170 can you cancel one item from the order printer removal,66,12
+"Subj: Case 0389 - Pricing for keyboard qty 6, pls send quote today.",pricing,high,,keyboard,pricing for keyboard qty 6 pls send quote today,47,9
+Can you email invoice for order 61616 - period: March 2026? pls,invoice_request,medium,61616.0,,can you email invoice for order 61616 period march 2026 pls,59,11
+Invoice request for order 17171 for Jan 2025 — need it for accounting review.,invoice_request,medium,17171.0,,invoice request for order 17171 for jan 2025 need it for accounting review,74,13
+Subj: Case 0370 - Cables order 65050: status? ordered earlier this week.,order_status,,65050.0,cables,cables order 65050 status ordered earlier this week,51,8
+Can you update billing address on 66330? urgent please,order_modification_request,high,66330.0,,can you update billing address on 66330 urgent please,53,9
+"Subj: Case 0016 - router order 51016 says out for delivery since yesterday, pls update.",delivery_issue,medium,51016.0,router,router order 51016 says out for delivery since yesterday pls update,67,11
+"We want a sales rep in NA for a small company (~30 people), contact pls",sales_reps,low,,,we want a sales rep in na for a small company 30 people contact pls,67,15
+Are tablets with SKU TB-3 available? qty 12 please,availability,,,tablet,are tablets with sku tb 3 available qty 12 please,49,10
+"Subj: Case 0075 - Need a printer PR-LASER9, sku PL-9009, in stock? qty 1.",availability,,,printer,need a printer pr laser9 sku pl 9009 in stock qty 1,51,12
+"Subj: Case 0942 - Please quote laptops qty 40 and connect sales rep for Midwest US, urgent.",multiple_intents,,,,please quote laptops qty 40 and connect sales rep for midwest us urgent,71,13
+Subj: Case 0722 - Need refund for order 67031 amount 6100 reason: order cancelled same day.,refund_request,,67031.0,,need refund for order 67031 amount 6100 reason order cancelled same day,71,12
+Order 665702: returning the server rack. It doesn’t fit our closet depth (my bad).,return_request,,665702.0,server rack,order 665702 returning the server rack it doesn t fit our closet depth my bad,77,15
+"Subj: Case 0569 - Who is the rep for New Jersey? we’re 95 employees, asap pls.",sales_reps,high,,,who is the rep for new jersey we re 95 employees asap pls,57,13
+Need to hold order 33322 for pickup instead of delivery,order_modification_request,low,33322.0,,need to hold order 33322 for pickup instead of delivery,55,10
+"Cables not shielding properly, interference on our setup",complaints,,,cables,cables not shielding properly interference on our setup,55,8
+"Returned the printer but havent received confirmation for order 33455 return., pls update.",return_request,,33455.0,printer,returned the printer but havent received confirmation for order 33455 return pls update,87,13
+"Subj: Case 0818 - Compliment: your packaging has improved a lot vs last year, nice job.",out_of_scope,,,,compliment your packaging has improved a lot vs last year nice job,66,12
+Do you sponsor esports teams? Just asking.,out_of_scope,,,,do you sponsor esports teams just asking,40,7
+"Hello, my support ticket: printer won't feed paper and I also want to change ship date 88900",multiple_intents,,88900.0,,hello my support ticket printer won t feed paper and i also want to change ship date 88900,90,18
+How much for 2 server racks plus assembly? Include shipping estimate pls.,pricing,medium,,server rack,how much for 2 server racks plus assembly include shipping estimate pls,71,12
+"Subj: Case 0630 - Vendor registration request: Orion License House, business type software publisher, region US.",vendor_registration,,,,vendor registration request orion license house business type software publisher region us,90,12
+"Can a sales rep reach out in North America? We're 60 ppl, need enterprise pricing.",sales_reps,medium,,,can a sales rep reach out in north america we re 60 ppl need enterprise pricing,79,16
+"Subj: Case 0330 - Whats going on with order 65010 laptop, placed 2026-01-28.",order_status,,65010.0,laptop,whats going on with order 65010 laptop placed 2026 01 28,56,11
+"Subj: Case 0561 - Need sales rep for Norway, company size 110, please reply asap.",sales_reps,high,,,need sales rep for norway company size 110 please reply asap,60,11
+Subj: Case 0920 - Need to return router order 68052 (wrong model) and also stop collections emails about it.,multiple_intents,,68052.0,,need to return router order 68052 wrong model and also stop collections emails about it,87,15
+Subj: Case 0893 - Need pricing on server racks qty 2 and check availability on sku SR-2043 asap.,multiple_intents,,,,need pricing on server racks qty 2 and check availability on sku sr 2043 asap,77,15
+"Keyboard backlight not turning on, low priority",technical_support,low,,keyboard,keyboard backlight not turning on low priority,46,7
+"Printer order 665410 is showing ""exception"" on tracking, no other details. Pls tell me whats going on, it's been a week now.",delivery_issue,medium,665410.0,printer,printer order 665410 is showing exception on tracking no other details pls tell me whats going on it s been a week now,118,23
+"Collections keeps emailing us but invoice was already paid. Order 610275, pls stop the reminders.",credit_and_collections,,610275.0,,collections keeps emailing us but invoice was already paid order 610275 pls stop the reminders,94,15
+Help — my tablet 23232 wont boot and I also need invoice 23232,multiple_intents,,23232.0,,help my tablet 23232 wont boot and i also need invoice 23232,60,12
+"Monitor HDMI port dead after first connection, tech support required, thanks.",technical_support,high,,monitor,monitor hdmi port dead after first connection tech support required thanks,74,11
+Subj: Case 0871 - Order 68016 monitor: shipped to wrong address (delivery issue) + please change address now!,multiple_intents,,68016.0,,order 68016 monitor shipped to wrong address delivery issue please change address now,85,13
+"Laptop battery drains super fast after update, need troubleshooting asap.",technical_support,high,,laptop,laptop battery drains super fast after update need troubleshooting asap,71,10
+Refund please for order 11199 amount 29.99 — charged shipping twice.,refund_request,,11199.0,,refund please for order 11199 amount 29 99 charged shipping twice,65,11
+"Subj: Case 0282 - Please add signature required to order 64016 delivery, we've had thefts.",order_modification_request,high,64016.0,,please add signature required to order 64016 delivery we ve had thefts,70,12
+I want to change shipping address for order 44322 — can you update? order placed today,order_modification_request,medium,44322.0,,i want to change shipping address for order 44322 can you update order placed today,83,15
+Where's order 99440? I ordered a monitor and it said shipped yesterday but no update in the statuz page.,order_status,,99440.0,monitor,where s order 99440 i ordered a monitor and it said shipped yesterday but no update in the statuz page,102,20
+"Order 70707 status? It's been in processing for 5 days, product was server rack.",order_status,,70707.0,server rack,order 70707 status it s been in processing for 5 days product was server rack,77,15
+"Subj: Case 0793 - Monitor randomly shuts off then back on, could be power setting? help.",technical_support,medium,,monitor,monitor randomly shuts off then back on could be power setting help,67,12
+Subj: Case 0884 - Delivery delayed on order 68025 and we need to upgrade shipping speed asap.,multiple_intents,,68025.0,,delivery delayed on order 68025 and we need to upgrade shipping speed asap,74,13
+"Subj: Case 0603 - Vendor registration help: Titan Monitor Works, business type manufacturer, region South Korea.",vendor_registration,,,,vendor registration help titan monitor works business type manufacturer region south korea,90,12
+"Subj: Case 0371 - Server rack order 65051: still waiting, ordered 2026-01-12.",order_status,,65051.0,server rack,server rack order 65051 still waiting ordered 2026 01 12,56,10
+Subj: Case 0428 - Can you confirm stock + pricing for XZ9982 (qty 2)? no rush.,pricing_and_availability,low,,,can you confirm stock pricing for xz9982 qty 2 no rush,54,11
+My order 80808 arrived late and the laptop battery is swollen. very upset,multiple_intents,,80808.0,,my order 80808 arrived late and the laptop battery is swollen very upset,72,13
+Do you have SKU SW-4411 (software license) available? Need 12.,availability,,,software license,do you have sku sw 4411 software license available need 12,58,11
+Laptop won’t detect WiFi networks randomly. Help plz!,technical_support,medium,,laptop,laptop won t detect wifi networks randomly help plz,51,9
+"Subj: Case 0842 - Thanks for getting back to me quickly last time, appreciate it.",out_of_scope,,,,thanks for getting back to me quickly last time appreciate it,61,11
+"Hey, refund pls for order 3001777. I was billed twice, refund the extra 120.00.",refund_request,,3001777.0,,hey refund pls for order 3001777 i was billed twice refund the extra 120 00,75,15
+My order 39393 is way late and I'm fed up. laptop order39393,delivery_issue,high,39393.0,laptop,my order 39393 is way late and i m fed up laptop order39393,59,13
+"Order 36363 delayed with no notice, shipping says exception — urgent for install.",delivery_issue,high,36363.0,,order 36363 delayed with no notice shipping says exception urgent for install,77,12
+"Subj: Case 0147 - Printer keeps saying 'low ink' with new cartridge, nonsense.",complaints,,,printer,printer keeps saying low ink with new cartridge nonsense,56,9
+"CB-321 price & stock for 300 cables pls, low",pricing_and_availability,low,,,cb 321 price stock for 300 cables pls low,41,9
+Refund not applied to order 66221 after return. Amount was 249.99,credit_and_collections,,66221.0,,refund not applied to order 66221 after return amount was 249 99,64,12
+"Refund request for 30303, amount 45.00 for returned cables, reason: wrong length",refund_request,,30303.0,,refund request for 30303 amount 45 00 for returned cables reason wrong length,77,13
+"Subj: Case 0911 - Router is dropping WAN (support) and shipment for order 68046 is delayed (delivery), pls help.",multiple_intents,,68046.0,,router is dropping wan support and shipment for order 68046 is delayed delivery pls help,88,15
+Subj: Case 0965 - Return request order 68082 laptop + need invoice copy for expense report.,multiple_intents,,68082.0,,return request order 68082 laptop need invoice copy for expense report,70,11
+"Vendor signup for NetGearz, type: distributor, region: US",vendor_registration,,,,vendor signup for netgearz type distributor region us,53,8
+"Subj: Case 0830 - Need help retrieving an old chat transcript from your site, is that possible?",out_of_scope,,,,need help retrieving an old chat transcript from your site is that possible,75,13
+Subj: Case 0903 - Order 68039: please change ship-to phone number and also where is the shipment right now?,multiple_intents,,68039.0,,order 68039 please change ship to phone number and also where is the shipment right now,87,16
+I want to return router from order 33388. reason: wrong model shipped,return_request,,33388.0,router,i want to return router from order 33388 reason wrong model shipped,67,12
+"Order 691220 shows delivered but we never got it, and now AP is asking why there’s no invoice email either. help pls",multiple_intents,,691220.0,,order 691220 shows delivered but we never got it and now ap is asking why there s no invoice email either help pls,114,23
+"Subj: Case 0209 - Need W-9? also collections says order 62048 $88.00 overdue, pls confirm.",credit_and_collections,,62048.0,,need w 9 also collections says order 62048 88 00 overdue pls confirm,68,13
+Return server rack 67676 due to wrong configuration shipped,return_request,,67676.0,server rack,return server rack 67676 due to wrong configuration shipped,59,9
+"Subj: Case 0107 - Keyboard sku KB-ERGO3, qty 11, available?",availability,,,keyboard,keyboard sku kb ergo3 qty 11 available,38,7
+I want to return the router from order 44012 — not compatible with our ISP.,return_request,,44012.0,router,i want to return the router from order 44012 not compatible with our isp,72,14
+Status on 31300? The cables are needed for tomorrow's install and no update given.,order_status,,31300.0,cables,status on 31300 the cables are needed for tomorrow s install and no update given,80,15
+"Subj: Case 0245 - Need invoice for order 63022 urgently, auditors are literally here.",invoice_request,high,63022.0,,need invoice for order 63022 urgently auditors are literally here,65,10
+"Printer won't connect to server, spooler errors, urgent support please.",technical_support,high,,printer,printer won t connect to server spooler errors urgent support please,68,11
+"Subj: Case 0250 - Need invoice for order 63026 today, otherwise we miss payment run.",invoice_request,high,63026.0,,need invoice for order 63026 today otherwise we miss payment run,64,11
+Refund for order 88999 $599 reason: order never arrived,refund_request,,88999.0,,refund for order 88999 599 reason order never arrived,53,9
+"Subj: Case 0468 - Need pricing and if XZ9983 is available, qty 1, thanks.",pricing_and_availability,low,,,need pricing and if xz9983 is available qty 1 thanks,52,10
+Subj: Case 0490 - Do you have an SDS for the cables (if applicable)?,product_docs,,,cables,do you have an sds for the cables if applicable,47,10
+Unrelated but can you sponsor our school fair? We love your brand!,out_of_scope,,,,unrelated but can you sponsor our school fair we love your brand,64,12
+"Refund request for order 582010: printer never arrived so we bought elsewhere, please refund 449.00.",refund_request,,582010.0,,refund request for order 582010 printer never arrived so we bought elsewhere please refund 449 00,97,16
+Can I get refund on 33400 — amt 999.00 reason: product not as described,refund_request,,33400.0,,can i get refund on 33400 amt 999 00 reason product not as described,68,14

@@ -1,0 +1,2 @@
+Model,Architecture,Accuracy,Precision,Recall,F1_Score,Macro_Precision,Macro_Recall,Macro_F1_Score
+Logistic Regression,TF-IDF + Logistic Regression,0.9,0.9016832901942908,0.9,0.8987183977371563,0.9097009869329,0.9124862910504381,0.9089860614178038

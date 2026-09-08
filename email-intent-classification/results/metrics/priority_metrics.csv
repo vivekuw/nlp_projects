@@ -1,0 +1,2 @@
+Model,Architecture,Accuracy,Precision,Recall,F1_Score,Macro_Precision,Macro_Recall,Macro_F1_Score
+Priority Classifier,Embedding + LSTM + Attention + Priority Dense,0.68,0.6807625272331154,0.68,0.6683632478632479,0.6745508768170292,0.6285490253286895,0.634576853019476
