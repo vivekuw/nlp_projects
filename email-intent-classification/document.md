@@ -100,6 +100,66 @@
 
 ---
 
+## 🏗️ 5. Project End-to-End Architecture
+
+### 📐 ASCII Flowchart Diagram (Easy to Draw by Hand)
+
+```
+                [ EMAIL DATASET (b4b4yg4/email-intent) ]
+                                   │
+                                   ▼
+                    [ DATA EXPLORATION & ANALYSIS ]
+                                   │
+                                   ▼
+                   [ TEXT CLEANING & PREPROCESSING ]
+            (Lowercasing, HTML/URL removal, Special chars, Whitespace)
+                                   │
+          ┌────────────────────────┴────────────────────────┐
+          ▼                                                 ▼
+[ TF-IDF FEATURE EXTRACTION ]                    [ TOKENIZATION & PADDING ]
+  (ngram_range=(1,2), max_features=5000)           (max_words=5000, max_len=30)
+          │                                                 │
+          ▼                                                 ▼
+[ LOGISTIC REGRESSION MODEL ]                   [ DENSE EMBEDDING LAYER ]
+  (Traditional ML Baseline)                             (64-dim)
+                                                            │
+                                                            ▼
+                                                   [ LSTM LAYER (64 units) ]
+                                                            │
+                                                            ▼
+                                                  [ ATTENTION MECHANISM ]
+                                                  (Dynamic Word Weights)
+                                                            │
+          ┌─────────────────────────────────────────────────┴─────────────────────────────────────────────────┐
+          ▼                                                                                                   ▼
+[ INTENT CLASSIFICATION HEAD ]                                                                      [ PRIORITY PREDICTION HEAD ]
+  (17 Intent Classes, Softmax)                                                                        (3 Priority Tiers, Softmax)
+          │                                                                                                   │
+          └─────────────────────────────────────────────────┬─────────────────────────────────────────────────┘
+                                                            ▼
+                                           [ MODEL EVALUATION & COMPARISON ]
+                                      (Accuracy, Precision, Recall, F1, ROC, CM)
+                                                            │
+                                                            ▼
+                                          [ STREAMLIT ANALYTICAL DASHBOARD ]
+                                                 (Live User Input App)
+```
+
+### 📝 Explanation of Architecture Steps (Short & Easy)
+1. **Raw Email Dataset**: Load 2,533 customer emails from Hugging Face dataset (`b4b4yg4/email-intent`).
+2. **Data Exploration**: Check dataset shape, columns, missing values, duplicates, and text lengths.
+3. **Text Preprocessing**: Lowercase text, strip HTML/URLs, remove special characters, and normalize spaces.
+4. **Feature Extraction Branch**:
+   - **Branch A (Traditional ML)**: Extract TF-IDF features and train Logistic Regression classifier.
+   - **Branch B (Deep Learning)**: Tokenize text, pad sequences (`max_len = 30`), and pass through Embedding layer.
+5. **LSTM + Attention Backbone**: Pass embeddings through LSTM layer, apply Custom Attention to highlight key words, and compute a weighted Context Vector.
+6. **Dual Prediction Heads**:
+   - **Intent Classification Head**: Predicts 17 email intent categories using Softmax activation.
+   - **Priority Prediction Head**: Predicts 3 urgency levels (`High`, `Medium`, `Low`) using Softmax activation.
+7. **Model Evaluation & Dashboard**: Evaluate performance using accuracy, precision, recall, F1, confusion matrices, and display in an interactive Streamlit app.
+
+---
+
 ## 💡 Quick Viva Questions & Answers (Bonus)
 
 - **Q1: Why did Logistic Regression get higher accuracy than LSTM?**  
