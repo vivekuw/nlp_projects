@@ -14,7 +14,7 @@ from tensorflow.keras.models import load_model
 # Page Configuration
 st.set_page_config(
     page_title="Email Intent Classification & Priority Dashboard",
-    page_icon="📧",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -100,12 +100,12 @@ def predict_email(text, tokenizer, intent_le, priority_le, intent_model, priorit
 
 # Main Application
 def main():
-    st.title("📧 Email Intent Classification with Attention-Based Sequence Models & Priority Prediction")
-    st.markdown("### Beginner-Friendly End-to-End NLP & Deep Learning Analytics Dashboard")
+    st.title("Email Intent Classification with Attention-Based Sequence Models & Priority Prediction")
+   
     st.markdown("---")
 
     # Navigation Sidebar
-    st.sidebar.title("📌 Navigation")
+    st.sidebar.title("Navigation")
     page = st.sidebar.radio(
         "Select Section:",
         [
@@ -123,28 +123,28 @@ def main():
     comp_df = pd.read_csv(os.path.join("results", "metrics", "final_model_comparison.csv"))
 
     if page == "Project Overview":
-        st.header("🎯 Project Overview & Objective")
+        st.header("Project Overview & Objective")
         st.write("""
         This project builds an end-to-end NLP data analysis pipeline designed to automatically classify customer support email intents and predict their urgency/priority level.
         
         It compares traditional machine learning baseline models against deep sequence architectures (LSTM) and an **Attention-Based LSTM** proposed model.
         """)
 
-        st.subheader("📌 Key Features:")
+        st.subheader("Key Features:")
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.info("🤖 **Models Evaluated**\n- TF-IDF + Logistic Regression\n- Basic LSTM\n- LSTM + Attention (Proposed)")
+            st.info("**Models Evaluated**\n- TF-IDF + Logistic Regression\n- Basic LSTM\n- LSTM + Attention (Proposed)")
         with col2:
-            st.success("🎯 **Dual Output Prediction**\n- 17 Intent Categories\n- 3 Priority Levels (High, Medium, Low)")
+            st.success("**Dual Output Prediction**\n- 17 Intent Categories\n- 3 Priority Levels (High, Medium, Low)")
         with col3:
-            st.warning("⚡ **Explainable Architecture**\n- Custom Keras Attention Mechanism\n- End-to-End Preprocessing")
+            st.warning("**Explainable Architecture**\n- Custom Keras Attention Mechanism\n- End-to-End Preprocessing")
 
-        st.subheader("🔗 Dataset Source & Credits")
+        st.subheader("Dataset Source & Credits")
         st.markdown("- **Dataset**: `b4b4yg4/email-intent`")
         st.markdown("- **Source**: [Hugging Face Email Intent Dataset](https://huggingface.co/datasets/b4b4yg4/email-intent)")
 
     elif page == "Dataset Overview & EDA":
-        st.header("📊 Dataset Overview & Statistics")
+        st.header("Dataset Overview & Statistics")
 
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Emails", f"{len(cleaned_df):,}")
@@ -153,7 +153,7 @@ def main():
         col4.metric("Average Word Count", f"{cleaned_df['word_count'].mean():.1f} words")
 
         st.markdown("---")
-        st.subheader("📈 Key Visualizations")
+        st.subheader("Key Visualizations")
 
         tab1, tab2, tab3 = st.tabs(["Intent Distribution", "Priority Distribution", "Email Length Distribution"])
 
@@ -167,14 +167,14 @@ def main():
             st.image(os.path.join("results", "figures", "email_length_distribution.png"), caption="Character and Word Length Histograms", use_container_width=True)
 
     elif page == "Word Cloud":
-        st.header("☁️ Email Corpus Word Cloud")
+        st.header("Email Corpus Word Cloud")
         st.write("Visualizing the most frequent vocabulary terms across cleaned customer email messages.")
         st.image(os.path.join("results", "figures", "wordcloud.png"), caption="Word Cloud of Cleaned Email Texts", use_container_width=True)
 
     elif page == "Model Performance & Comparison":
-        st.header("🏆 Model Performance Comparison")
+        st.header("Model Performance Comparison")
         
-        st.subheader("📊 Comparative Metrics Table")
+        st.subheader("Comparative Metrics Table")
         st.dataframe(
             comp_df[['Model', 'Architecture', 'Accuracy', 'Precision', 'Recall', 'F1_Score']].style.format({
                 'Accuracy': '{:.4f}',
@@ -185,10 +185,10 @@ def main():
             use_container_width=True
         )
 
-        st.subheader("📈 Visual Comparison & Metrics")
+        st.subheader("Visual Comparison & Metrics")
         st.image(os.path.join("results", "figures", "model_comparison.png"), caption="Accuracy, Precision, Recall, and F1-Score Bar Chart Comparison", use_container_width=True)
 
-        st.subheader("🌀 Confusion Matrices")
+        st.subheader("Confusion Matrices")
         c1, c2, c3 = st.columns(3)
         with c1:
             st.image(os.path.join("results", "figures", "logistic_regression_confusion_matrix.png"), caption="Logistic Regression Confusion Matrix", use_container_width=True)
@@ -197,11 +197,11 @@ def main():
         with c3:
             st.image(os.path.join("results", "figures", "attention_confusion_matrix.png"), caption="Proposed LSTM + Attention Confusion Matrix", use_container_width=True)
 
-        st.subheader("📉 Multi-Class ROC Curves")
+        st.subheader("Multi-Class ROC Curves")
         st.image(os.path.join("results", "figures", "roc_curve.png"), caption="ROC Curves for Proposed Attention Model", use_container_width=True)
 
     elif page == "Live Email Prediction System":
-        st.header("🔮 Live Email Intent & Priority Predictor")
+        st.header("Live Email Intent & Priority Predictor")
         st.write("Enter a sample email message below to test live classification with trained models:")
 
         try:
@@ -210,14 +210,14 @@ def main():
             default_text = "Subj: Case 0099 - Order 51099 laptop never arrived, tracking is stuck! Need urgent refund."
             user_input = st.text_area("Customer Email Text:", value=default_text, height=120)
 
-            if st.button("🚀 Classify Email", type="primary"):
+            if st.button("Classify Email", type="primary"):
                 if not user_input.strip():
                     st.warning("Please enter a valid email message.")
                 else:
                     res = predict_email(user_input, tokenizer, intent_le, priority_le, intent_model, priority_model)
                     
                     st.markdown("---")
-                    st.subheader("🎯 Prediction Output")
+                    st.subheader("Prediction Output")
 
                     col1, col2 = st.columns(2)
                     with col1:
@@ -237,14 +237,14 @@ def main():
             st.error(f"Error loading models or generating prediction: {e}")
 
     elif page == "Conclusion & Key Findings":
-        st.header("📝 Conclusion & Key Findings")
+        st.header("Conclusion & Key Findings")
         st.markdown("""
         ### Key Insights:
         1. **Baseline Strong Performance**: TF-IDF + Logistic Regression achieved **89.87% F1-score** due to distinct keyword patterns in short customer service queries.
         2. **Sequence Modeling & Attention Advantage**: The **LSTM + Attention model (74.45% F1-score)** significantly outperformed the **Basic LSTM (54.73% F1-score)**, demonstrating how dynamic attention weights help sequence models focus on crucial keywords like *"urgent"*, *"refund"*, or *"damaged"*.
         3. **Dual Priority Classification**: Priority prediction successfully mapped customer emails into `High`, `Medium`, and `Low` urgency tiers.
         
-        ### 🚀 Applications & Future Scope:
+        ### Applications & Future Scope:
         - **Automated Support Helpdesks**: Prioritizing urgent billing and delivery tickets.
         - **Multilingual Support**: Extending tokenization to handle international queries.
         - **Transformer Exploration**: Comparing sequence attention against lightweight Transformer encodings in future iterations.
